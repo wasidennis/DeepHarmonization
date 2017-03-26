@@ -3,7 +3,7 @@ Project webpage: https://sites.google.com/site/yihsuantsai/research/cvpr17-harmo
 Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
 
 ## Paper
-Deep Image Harmonization <br />
+[Deep Image Harmonization](https://arxiv.org/abs/1703.00069) <br />
 Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
