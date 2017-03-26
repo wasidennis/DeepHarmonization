@@ -1,5 +1,6 @@
 # Deep Image Harmonization
-Demo code of the paper: "Deep Image Harmonization", Y.-H. Tsai, X. Shen, Z. Lin, K. Sunkavalli, X. Lu and M.-H. Yang, CVPR 2017
+Project webpage: https://sites.google.com/site/yihsuantsai/research/cvpr17-harmonization <br />
+Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
 
 ## Paper
 Deep Image Harmonization <br />
@@ -12,7 +13,7 @@ This is the authors' demo code described in the above paper. Please cite our pap
 ## Installation and usage
 * Download and unzip the code.
 
-* Install Caffe as instructed http://caffe.berkeleyvision.org/.
+* Install Caffe: http://caffe.berkeleyvision.org/.
 
 * Run `demo.py` on real composite images (the test set in the paper).
 
