@@ -4,7 +4,7 @@ Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
 
 ## Paper
 Deep Image Harmonization <br />
-Yi-Hsuan, Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
+Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
 ## Overview
