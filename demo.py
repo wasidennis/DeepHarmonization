@@ -20,15 +20,17 @@ caffe.set_device(0)
 caffe.set_mode_gpu()
 
 # load net
-net = caffe.Net('model/deploy_skip_all_512.prototxt', 'model/skip_512_coco_5k_fk_iter_200k.caffemodel', caffe.TEST)
+net = caffe.Net('model/deploy_512.prototxt', 'model/harmonize_iter_200000.caffemodel', caffe.TEST)
 
 size = np.array([512,512])
 for idx, path_ in enumerate(path_src):
   	# load image, switch to BGR, subtract mean, and make dims C x H x W for Caffe
 	im_ori = Image.open('data/image/' + path_)
-	im = im_ori.resize(size, Image.BICUBIC);
-
+	im = im_ori.resize(size, Image.BICUBIC)
 	im = np.array(im, dtype=np.float32)
+	if im.shape[2] == 4:
+    		im = im[:,:,0:3]
+
 	im = im[:,:,::-1]
 	im -= np.array((104.00699, 116.66877, 122.67892))
 	im = im.transpose((2,0,1))
@@ -36,6 +38,9 @@ for idx, path_ in enumerate(path_src):
 	mask = Image.open('data/mask/' + path_)
 	mask = mask.resize(size, Image.BICUBIC)
 	mask = np.array(mask, dtype=np.float32)
+	if len(mask.shape) == 3:
+    		mask = mask[:,:,0]
+
 	mask -= 128.0
 	mask = mask[np.newaxis, ...]
 
@@ -48,7 +53,7 @@ for idx, path_ in enumerate(path_src):
 
 	# run net for prediction
 	net.forward()
-	out = net.blobs['output'].data[0]
+	out = net.blobs['output-h'].data[0]
 	out = out.transpose((1,2,0))
 	out += np.array((104.00699, 116.66877, 122.67892))
 	out = out[:,:,::-1]
