@@ -15,6 +15,8 @@ This is the authors' demo code described in the above paper. Please cite our pap
 
 * Install Caffe: http://caffe.berkeleyvision.org/.
 
+* Download the caffe model at https://dl.dropboxusercontent.com/u/73240677/CVPR16/pascal_segmentation.zip, then move it under the **model** folder.
+
 * Run `demo.py` on real composite images (the test set in the paper).
 
 
