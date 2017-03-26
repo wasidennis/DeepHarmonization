@@ -7,10 +7,9 @@ Deep Image Harmonization <br />
 Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-## Overview
 This is the authors' demo code described in the above paper. Please cite our paper if you use our code and model for your research.
 
-## Installation and usage
+## Installation and Usage
 * Download and unzip the code.
 
 * Install Caffe: http://caffe.berkeleyvision.org/.
