@@ -18,6 +18,7 @@ This is the authors' demo code described in the above paper. Please cite our pap
 
 * Run `demo.py` on real composite images (the test set in the paper).
 
-
+## Log
+* 03/2017: demo code released
 
 
