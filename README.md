@@ -14,7 +14,7 @@ This is the authors' demo code described in the above paper. Please cite our pap
 
 * Install Caffe: http://caffe.berkeleyvision.org/.
 
-* Download the [caffe model](https://dl.dropboxusercontent.com/u/73240677/CVPR17/harmonize_iter_200000.caffemodel) and move it under the **model** folder.
+* Download the pre-trained [caffe model](https://dl.dropboxusercontent.com/u/73240677/CVPR17/harmonize_iter_200000.caffemodel) and move it under the **model** folder.
 
 * Run `demo.py` on real composite images (the test set in the paper).
 
