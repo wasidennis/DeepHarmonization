@@ -19,7 +19,7 @@ This is the authors' demo code described in the above paper. Please cite our pap
 * Run `demo.py` on real composite images (the test set in the paper).
 
 ## Note
-* The model and code are available for non-commercial research purposes only.
+The model and code are available for non-commercial research purposes only.
 
 ## Log
 * 03/2017: demo code released
