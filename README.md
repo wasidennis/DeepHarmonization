@@ -7,7 +7,7 @@ Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
 Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-This is the authors' demo code described in the above paper. Please cite our paper if you use our code and model for your research.
+This is the authors' demo code described in the above paper. Please cite our paper if you use it for your research.
 
 ## Installation and Usage
 * Download and unzip the code.
@@ -17,6 +17,9 @@ This is the authors' demo code described in the above paper. Please cite our pap
 * Download the pre-trained [caffe model](https://dl.dropboxusercontent.com/u/73240677/CVPR17/harmonize_iter_200000.caffemodel) and move it under the **model** folder.
 
 * Run `demo.py` on real composite images (the test set in the paper).
+
+## Note
+* The model and code are available for non-commercial research purposes only.
 
 ## Log
 * 03/2017: demo code released
