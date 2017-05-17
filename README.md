@@ -22,12 +22,13 @@ This is the authors' demo code described in the above paper. Please cite our pap
 * Run `demo.py` on real composite images (including our test set collected in the paper).
 
 ## Evaluation Set
-* Download our complete set of real composite images [here](https://dl.dropboxusercontent.com/u/73240677/CVPR17/real_data.zip).
+* Download our complete set of real composite images, including our harmonization results [here](https://dl.dropboxusercontent.com/u/73240677/CVPR17/real_data.zip).
 
 ## Note
 The model, code and dataset are available for non-commercial research purposes only.
 
 ## Log
 * 03/2017: demo code released
+* 05/2017: complete evaluation set released
 
 
