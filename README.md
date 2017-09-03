@@ -1,6 +1,6 @@
 # Deep Image Harmonization
 
-![Alt Text](https://dl.dropboxusercontent.com/u/73240677/CVPR17/before_after.gif) 
+![Alt Text](https://www.dropbox.com/s/965rb0ebao3lms1/before_after.gif?dl=0) 
 
 Project webpage: https://sites.google.com/site/yihsuantsai/research/cvpr17-harmonization <br />
 Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
