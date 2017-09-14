@@ -22,7 +22,7 @@ This is the authors' demo code described in the above paper. Please cite our pap
 * Run `demo.py` on real composite images (including our test set collected in the paper).
 
 ## Evaluation Set
-* Download our complete set of real composite images, including our harmonization results [here](http://vllab1.ucmerced.edu/~ytsai/CVPR17/CVPR17/real_data.zip).
+* Download our complete set of real composite images, including our harmonization results [here](http://vllab1.ucmerced.edu/~ytsai/CVPR17/real_data.zip).
 
 ## Note
 The model, code and dataset are available for non-commercial research purposes only.
