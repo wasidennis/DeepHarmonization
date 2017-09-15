@@ -10,7 +10,7 @@ Contact: Yi-Hsuan Tsai (ytsai2 at ucmerced dot edu)
 Yi-Hsuan Tsai, Xiaohui Shen, Zhe Lin, Kalyan Sunkavalli, Xin Lu and Ming-Hsuan Yang <br />
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
-This is the authors' demo code described in the above paper. Please cite our paper if you use it for your research.
+This is the authors' demo code described in the above paper. Please cite our paper if you find it useful for your research.
 
 ## Installation and Usage
 * Download and unzip the code.
