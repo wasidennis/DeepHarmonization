@@ -17,12 +17,12 @@ This is the authors' demo code described in the above paper. Please cite our pap
 
 * Install Caffe: http://caffe.berkeleyvision.org/.
 
-* Download the pre-trained [caffe model](http://vllab1.ucmerced.edu/~ytsai/CVPR17/harmonize_iter_200000.caffemodel) and move it under the **model** folder.
+* Download the pre-trained [caffe model](http://vllab.ucmerced.edu/ytsai/CVPR17/harmonize_iter_200000.caffemodel) and move it under the **model** folder.
 
 * Run `demo.py` on real composite images (including our test set collected in the paper).
 
 ## Evaluation Set
-* Download our complete set of real composite images, including our harmonization results [here](http://vllab1.ucmerced.edu/~ytsai/CVPR17/real_data.zip).
+* Download our complete set of real composite images, including our harmonization results [here](http://vllab.ucmerced.edu/ytsai/CVPR17/real_data.zip).
 
 ## Note
 The model, code and dataset are available for non-commercial research purposes only.
