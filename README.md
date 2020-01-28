@@ -12,6 +12,8 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017.
 
 This is the authors' demo code described in the above paper. Please cite our paper if you find it useful for your research.
 
+* One re-implementation of our dataset and model: https://github.com/bcmi/Image_Harmonization_Datasets
+
 ## Installation and Usage
 * Download and unzip the code.
 
